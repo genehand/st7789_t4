@@ -10,8 +10,8 @@ This library relies on https://github.com/codewitch-honey-crisis/lcd_spi_driver_
 #include "lvgl.h"
 
 // Screen dimension
-const byte SCREEN_WIDTH = 240;
-const byte SCREEN_HEIGHT = 320;
+const short SCREEN_WIDTH = 240;
+const short SCREEN_HEIGHT = 320;
 
 // Pins
 const byte CS_PIN = 10; // for CS1: 38
